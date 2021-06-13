@@ -20,16 +20,20 @@ After execution of script, go to "platforms/ios/" directory and open Sugarizer.x
 
 Click on "Sugarizer" title and then click on "build settings"
 
-<buildSetting_1>
+![buildsettings](https://user-images.githubusercontent.com/42293606/121804462-26855400-cc64-11eb-9727-baabe627e19e.JPG)
 
 Scroll down you'll find "Swift Compiler - Language" section. In this section, select "Swift Language Version" as 3 or above
 
-<buildSetting_2>
+![Swift Language Setting](https://user-images.githubusercontent.com/42293606/121804549-8976eb00-cc64-11eb-9f33-fe107a7a3ecd.JPG)
 
 Then go to "Sugarizer/plugins/" directory and open "CDVFileTransfer.m" file. Comment line 107-110 and save the file.
 
-<comment>
+![CDVFileTransfer comment](https://user-images.githubusercontent.com/42293606/121804587-bc20e380-cc64-11eb-9843-ffc6e2a9624e.JPG)
     
 Select the simulator device and press Build button.
-    
-<device>
+
+![play](https://user-images.githubusercontent.com/42293606/121804642-0904ba00-cc65-11eb-8df8-d79798e0fba8.JPG)
+
+That's it. You'll see screen like below.
+
+![sugarizer_on simulator](https://user-images.githubusercontent.com/42293606/121804668-33567780-cc65-11eb-8fee-e44a4fc87338.JPG)
