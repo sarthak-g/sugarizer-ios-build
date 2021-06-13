@@ -24,7 +24,8 @@ sed -i -e "s/\({\"id\": \"org.somosazucar.JappyActivity\",.*\},\)//" www/activit
 #sed -i -e 's/class="offlinemode"//' www/activities/Scratch.activity/index.html
 rm -rf www/activities/Jappy.activity www/activities/TurtleBlocksJS.activity
 
-Cordova plugin add https://github.com/AraHovakimyan/cordova-plugin-wkwebviewxhrfix
+cordova platform add ios
+cordova plugin add @ahovakimyan/cordova-plugin-wkwebviewxhrfix
 
 echo --- Build Cordova debug version
 cordova -d build ios 
