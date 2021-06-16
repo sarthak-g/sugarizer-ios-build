@@ -2,19 +2,24 @@
 
 To build Sugarizer for ios, first install Cordova as described [here](https://cordova.apache.org/#getstarted) and Xcode on your machine.
 
-Then create cordova project name "Sugarizer_cordova" at the same location where [Sugarizer](https://github.com//llaske/sugarizer) directory is present
+Then create cordova project name "sugarizer-cordova" at the same location where [sugarizer](https://github.com//llaske/sugarizer) directory is present
 
-    cordova create Sugarizer_cordova
+    cordova create sugarizer-cordova
 
-Go inside Sugarizer_cordova directory
+Go inside sugarizer-cordova directory
 
-    cd Sugarizer_cordova/
+    cd sugarizer-cordova/
 
 Put [make_ios.sh](https://github.com/sarthak-g/sugarizer-ios-build/blob/main/make_ios.sh) and [exlude.ios](https://github.com/sarthak-g/sugarizer-ios-build/blob/main/exclude.ios) file in the directory.
 
-Run make_ios.sh script using below command
+Run make_ios.sh script using below command:
 
+For minified version
+      
     sh make_ios.sh
+For normal version
+
+    sh make_ios.sh full
     
 After execution of script, go to "platforms/ios/" directory and open Sugarizer.xcworkspace file in Xcode by double clicking it.
 
